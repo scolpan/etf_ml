@@ -118,7 +118,7 @@ The model chosen was **Random Forest Resgressor**
 We chose a Supervised Model as we wanted to train the data and Run Simulations. 
 We utilised three trading signals as features, after the trafing signals were tuned, the COVID-19 data vas added as features as well.
 
-![image](images/features.PNG)
+![image](images/features.png)
 
 ### Evaluating & Tuning
 
@@ -131,7 +131,7 @@ If a buy or a sell signal doesn't change, we use 0 as hold as oppose to continuo
 
 The crossover_toggle column is enumerated based on the values in the crossover_signal_temp column, if a signal repeats, it will increase the enumeration until the signal changes.
 
-![image](images/crossover.PNG)
+![image](images/crossover.png)
    
 - **Bollinger Bands** 
 
@@ -139,7 +139,7 @@ Have the bands at a sigma of 2 and using a rolling mean of 20, we got to this nu
 
 
 
-![image](images/boll.PNG)
+![image](images/boll.png)
 
 ### Prediction
 
@@ -167,7 +167,7 @@ I would definitely recommend this strategy of trading to anyone willing to reap 
 
 
 
-![image](images/conclu.PNG)
+![image](images/conclu.png)
 
 
 Find our Jupyter Notebook [here](https://github.com/scolpan/project_2/blob/main/ETFs.ipynb)
