@@ -1,5 +1,5 @@
 
-![image](images/image.PNG)
+![image](images/imagex.png)
 # "Portfolio Optimization Prediction with Machine Learning"
 Fintech Bootcamp Project-2 Group-2
 
@@ -56,13 +56,13 @@ Fintech Bootcamp Project-2 Group-2
 - ETF data
 Utilised Yahoo finance APi [Yfinance](https://pypi.org/project/yfinance/) for all ETF data utilized
 
-![image](images/1h.PNG)
+![image](images/1hx.png)
 
 - COVID-19 data
 
 All the COVID-19 data was extracted from [Our World in Data](https://ourworldindata.org/policy-responses-covid)  and only Data from the United States wasn used
 
-![image](images/datacovid.PNG)
+![image](images/datacovidx.png)
 
 
 ### Preparation
@@ -76,7 +76,7 @@ We prepared our data by using Yahoo Finance and identified 60 ETF Growth Tickers
 We used Statsistics for the COVID-19 categories mentioned below. 
 Data was utilized only when available and no nulls were droped.
 
-![image](images/indicators.PNG)
+![image](images/indicatorsx.png)
 
 
 
@@ -118,7 +118,7 @@ The model chosen was **Random Forest Resgressor**
 We chose a Supervised Model as we wanted to train the data and Run Simulations. 
 We utilised three trading signals as features, after the trafing signals were tuned, the COVID-19 data vas added as features as well.
 
-![image](images/features.PNG)
+![image](images/featuresx.png)
 
 ### Evaluating & Tuning
 
@@ -131,7 +131,7 @@ If a buy or a sell signal doesn't change, we use 0 as hold as oppose to continuo
 
 The crossover_toggle column is enumerated based on the values in the crossover_signal_temp column, if a signal repeats, it will increase the enumeration until the signal changes.
 
-![image](images/crossover.PNG)
+![image](images/crossoverx.png)
    
 - **Bollinger Bands** 
 
@@ -139,7 +139,7 @@ Have the bands at a sigma of 2 and using a rolling mean of 20, we got to this nu
 
 
 
-![image](images/boll.PNG)
+![image](images/bollx.png)
 
 ### Prediction
 
@@ -167,7 +167,7 @@ I would definitely recommend this strategy of trading to anyone willing to reap 
 
 
 
-![image](images/conclu.PNG)
+![image](images/conclux.png)
 
 
 Find our Jupyter Notebook [here](https://github.com/scolpan/project_2/blob/main/ETFs.ipynb)
