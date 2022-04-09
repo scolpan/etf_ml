@@ -1,6 +1,7 @@
 
 ![image](images/imagex.png)
-ETF Stock Price Prediction with Machine Learning
+
+# ETF Stock Price Prediction with Machine Learning
 
 # Table of contents:
 
