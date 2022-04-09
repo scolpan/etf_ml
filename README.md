@@ -1,11 +1,6 @@
 
 ![image](images/imagex.png)
-# "Portfolio Optimization Prediction with Machine Learning"
-Fintech Bootcamp Project-2 Group-2
-
- By Sherin Solomon. Carolina Corona. Omotara Ajayi, Sinan Colpan, Vincent Wen
-
-
+ETF Stock Price Prediction with Machine Learning
 
 # Table of contents:
 
